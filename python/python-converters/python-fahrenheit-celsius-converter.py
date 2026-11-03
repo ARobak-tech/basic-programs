@@ -8,9 +8,13 @@ def main():
     choice = int(input("Input '1' to convert from Fahrenheit to Celsius, input '2' to convert from Celsius to Fahrenheit.\nYour choice: "))
 
     if choice == 1:
-        pass
+        fahrenheit = float(input("How many degrees Fahrenheit?\nYour input: "))
+        celsius = (fahrenheit - 32) * (5 / 9)
+        print(f"{fahrenheit} degrees Fahrenheit equal {celsius} degrees Celsius.")
     elif choice == 2:
-        pass
+        celsius = float(input("How many degrees Celsius?\nYour input: "))
+        fahrenheit = (celsius * (9 / 5)) + 32
+        print(f"{celsius} degrees Celsius equal {fahrenheit} degrees Fahrenheit.")
     else:
         print("Wrong input.")
 
