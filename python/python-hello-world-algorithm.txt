@@ -1,0 +1,11 @@
+BEGIN
+
+
+    DEFINE main()
+
+        PRINT "Hello, World!"
+
+
+    CALL main()
+
+END

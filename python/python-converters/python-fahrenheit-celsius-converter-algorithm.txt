@@ -1,0 +1,31 @@
+BEGIN
+
+
+    DEFINE main()
+
+        INPUT choice
+    
+        IF choice == 1
+
+            INPUT fahrenheit
+
+            CALCULATE celsius
+
+            PRINT result
+
+        ELIF choice == 2
+
+            INPUT celsius
+
+            CALCULATE fahrenheit
+
+            PRINT result
+
+        ELSE
+      
+            PRINT "Wrong input."
+
+
+  CALL main()
+
+END
