@@ -1,8 +1,8 @@
-"""A program that prints the words 'Hello, World!'"""
+"""A program that prints the words 'Hello, World!'."""
 
 
 def main():
-    """Main function of a program that prints the words 'Hello, World!'"""
+    """Main function of a program that prints the words 'Hello, World!'."""
 
     print("Hello, World!")
 
